@@ -1,0 +1,25 @@
+{
+  "name": "nikki-outfit-roulette",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@11.25.0",
+  "engines": { "node": ">=24.0.0" },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test tests/core.test.ts tests/storage.test.ts"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.0"
+  }
+}
